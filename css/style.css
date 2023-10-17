@@ -1,0 +1,91 @@
+*,
+*::after
+*::before{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;}
+
+/*anchor tag*/
+a:active, a:hover {
+    text-decoration: underline;
+    background-color: hotpink
+}
+
+body {
+    text-align: center;}
+.container {
+    background-color:aquamarine;}
+.container p {color: green;}
+.box {
+    color: white;
+    padding: 12px 10px 20px 10px;}
+
+
+/*#box1 {
+    width: 150px ;
+    background-color: green;
+    color: white;
+    box-sizing: content-box;
+    margin: 20px;
+    padding: 20px}
+#box2 {
+    width:300px ;
+    background-color: darkgrey;
+    box-sizing: border-box;
+    margin: 10px;
+    padding: 10px}
+
+/* border: 5px solid; */
+
+p {
+    background-color: thistle;
+    color: white;
+}
+#pBox {
+    color: rebeccapurple;
+}
+.container {
+    width: 300px;
+    margin: 20px auto;
+    border-radius: 20%}
+    /*1rem=16px*/
+
+img {
+    width: 400px;
+    aspect-ratio: 1/1;
+}
+
+img[alt="random person"] {
+    width: 300px;
+    aspect-ratio: 1/1;
+    border: 2px solid;
+    border-radius: 20%;
+}
+/* CSS rule selector {property: value;}
+ //*pseudo-class
+:is #box1, #box2 {
+    border: 2px dotted;
+    border-radius: 20px;
+ }
+ pseudo class - has only one colon**
+ pseudo element - has more than one colon** two.
+
+ 1rem = 16px
+
+ h3+p {font-weight: bolder; color: yellow;}
+ h3 ~ p {font-weight: bolder; color: yellow;}*/
+
+ .wrapper p::first-letter{
+    font-size: 2.8rem;
+    font-weight: bolder;
+    color:palevioletred; 
+    float: left;
+ }
+
+ .wrapper p::first-line{
+    font-weight: bolder;
+ }
+
+ ::selection {
+    background-color: blanchedalmond;}
+ 
