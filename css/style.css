@@ -4,7 +4,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;}
-
+ 
 /*anchor tag*/
 a:active, a:hover {
     text-decoration: underline;
@@ -19,7 +19,9 @@ body {
 .box {
     color: white;
     padding: 12px 10px 20px 10px;}
-
+body {
+    font-family: 'Lora', serif;
+}
 
 /*#box1 {
     width: 150px ;
@@ -59,8 +61,8 @@ img[alt="random person"] {
     width: 300px;
     aspect-ratio: 1/1;
     border: 2px solid;
-    border-radius: 20%;
-}
+    border-radius: 20%;}
+
 /* CSS rule selector {property: value;}
  //*pseudo-class
 :is #box1, #box2 {
@@ -83,9 +85,22 @@ img[alt="random person"] {
  }
 
  .wrapper p::first-line{
-    font-weight: bolder;
- }
+    font-weight: bolder;}
 
  ::selection {
     background-color: blanchedalmond;}
  
+    div:first-child {
+        background-image: linear-gradient(to right, palevioletred, thistle);
+    }
+
+h2{
+    text-shadow: .2vw .2vw .1vw rgba (red, green, blue, alpha)}
+
+    
+/* custom variables */
+:root{
+    --primaryColor:rgba(0, 0, 0);
+    --secondaryColor: white;
+    --alternative:rgba(23, 44, 87, .7);
+}
